@@ -18,7 +18,11 @@ Create Pet Basic form page for your client Pawtastic!
 ![image](https://www.inkyy.com/wp-content/uploads/2019/10/pawtastic-xd-UI-kit.png)
 
  
+Requirements
 
+Minimum of 30 commits
+Proper folder structure
+Wireframe
 
  
 
