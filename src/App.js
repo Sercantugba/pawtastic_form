@@ -59,6 +59,7 @@ export default class App extends Component {
           <input type="date"  value={this.state.value} onChange={this.handleChange}/>
         </label>
       </form>
+      <br></br>
                 <input type="submit"  value="Submit" onClick={this.handleSubmit}/>
 
      </div>
