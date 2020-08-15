@@ -9,7 +9,7 @@ export default class App extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {value: ''}
+    this.state = {name: '', gender: '', breed: '', birthday: ''}
 
 // create a way to pass user input to to other components
 
@@ -24,7 +24,7 @@ export default class App extends Component {
   }
 
   handleSubmit(event) {
-    alert(`Thank you for submitting info for: ${this.state.value}`);
+    alert(`Thank you for submitting info for: ${this.state.name},${this.state.gender},${this.state.breed},${this.state.birthday}`);
     event.preventDefault();
 
   } 
@@ -44,25 +44,25 @@ export default class App extends Component {
 
         <label>  
           Name: 
-          <input type="text"  value={this.state.value} onChange={this.handleChange}/>
+          <input  name="name" type="text"  value={this.state.name} onChange={event => this.setState({name:event.target.value})}/>
         </label>
       </form>
       <form onSubmit={this.handleChange}>
       <label>  
           Gender: 
-          <input type="text"  value={this.state.value} onChange={this.handleChange}/>
+          <input  name="gender" type="text"  value={this.state.gender} onChange={event => this.setState({gender:event.target.value})}/>
         </label>
       </form>
       <form onSubmit={this.handleChange}>
       <label>  
           Breed: 
-          <input type="text"  value={this.state.value} onChange={this.handleChange}/>
+          <input name="breed" type="text"  value={this.state.breed} onChange={event => this.setState({breed:event.target.value})}/>
         </label>
       </form>
       <form onSubmit={this.handleChange}>
       <label>  
           Birthday: 
-          <input type="date"  value={this.state.value} onChange={this.handleChange}/>
+          <input name="birtday" type="date"  value={this.state.birthday} onChange={event => this.setState({birthday:event.target.value})}/>
         </label>
       </form>
       <br></br>
