@@ -20,9 +20,9 @@ Create Pet Basic form page for your client Pawtastic!
  
 Requirements
 
-Minimum of 30 commits
-Proper folder structure
-Wireframe
+1.Minimum of 30 commits
+2.Proper folder structure
+3.Wireframe
 
  
 
