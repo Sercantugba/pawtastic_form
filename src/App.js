@@ -48,12 +48,12 @@ export default class App extends Component {
         </label>
       </form>
       <form onSubmit={this.handleChange}>
-      {/* <label>  
+      <label>  
           Gender: 
           <input type="text"  value={this.state.value} onChange={this.handleChange}/>
         </label>
       </form>
-      <form onSubmit={this.handleChange}> */}
+      <form onSubmit={this.handleChange}>
       <label>  
           Breed: 
           <input type="text"  value={this.state.value} onChange={this.handleChange}/>
