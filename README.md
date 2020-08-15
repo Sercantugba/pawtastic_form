@@ -15,7 +15,7 @@ Create Pet Basic form page for your client Pawtastic!
 
  
 
-dog_form.png
+
 
  
 
