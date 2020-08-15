@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-image: url("https://live.staticflickr.com/3809/11675249265_92770ed09f_b.jpg");
+}
+
+h1{
+text-align: center;
+font-family: 'Baloo Da 2';
+color: navy;
+}
+
+form{
+  font-size: 20pt;
+  font-family: 'Baloo Da 2';
+  color: navy;
+}
+
+img{
+  height: 200px;
+  width:200px;
+  border: solid;
+  border-radius: 40px;
+  border-color: black;
+  border-width: medium;
+}
+
+#label-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#label-child{
+text-align: center;
+}
