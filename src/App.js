@@ -1,24 +1,23 @@
 import './App.css';
 import React, { Component } from 'react'
-// import { DogName } from './components/DogName';
-// import { DogBreed } from './components/DogBreed';
-// import { DogDob } from './components/DogName';
 
 
-          /* Create a component class */
+
+// Create a component class
+
 export default class App extends Component {
   constructor(props) {
     super(props);
 
     this.state = {value: ''}
 
-          /* create a way to pass user input to to other components */
+// create a way to pass user input to to other components
 
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
   }
 
-            /* create a way to register an event change */
+// create a way to register an event change
 
   handleChange(event) {
     this.setState({value: event.target.value})
