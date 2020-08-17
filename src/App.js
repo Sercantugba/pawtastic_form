@@ -34,7 +34,7 @@ export default class App extends Component {
       <div id='label-container'>
         <div id='label-child'>
         <img src="https://static.wixstatic.com/media/3769aa_a3246839636b45658f434a688ddfd3f2.jpg/v1/fill/w_488,h_470,al_c,q_80,usm_0.66_1.00_0.01/3769aa_a3246839636b45658f434a688ddfd3f2.webp"alt="paw logo"/>
-        <h1>Yay, we love dogs! Give Us the basics about your pup.</h1>
+        <h1>Yay, we love dogs! Give Us the basics about your pup</h1>
          <form onSubmit={this.handleChange}>
            <div>
            </div>
