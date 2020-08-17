@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 
 
 
-// Create a component class
+// Create a component class with constructor
 
 export default class App extends Component {
   constructor(props) {
